@@ -1,5 +1,7 @@
 $:.push File.expand_path("../lib", __FILE__)
 
+require 'rswag/ui/version'
+
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "rswag-ui"
