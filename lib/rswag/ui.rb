@@ -3,6 +3,8 @@ require 'rswag/ui/engine'
 
 module Rswag
   module Ui
+    VERSION = '2.0.5'
+
     def self.configure
       yield(config)
     end
